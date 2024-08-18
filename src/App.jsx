@@ -7,7 +7,6 @@ function App() {
     <>
     <Header/>
     <Content/>
-      <h1 className="text-8xl">Here we gooo</h1>
     </>
   )
 }
