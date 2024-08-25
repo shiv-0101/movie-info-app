@@ -46,7 +46,7 @@ const Content = () => {
 
         <div className='w-[60%] mx-auto flex justify-center mt-10'>
           <div  className='block gap-8 sm:flex'>
-            <img src={data.Poster} alt="" />
+            <img src={data.Poster} alt="#" />
             <div className=''>
             <h1 className='text-xl mt-3'> <strong>Title:</strong> {data.Title} ({data.Year})</h1>
             <h3 className='text-[1.15rem] mt-3'> <strong>Rating:</strong> {data.imdbRating} (imdb)</h3>
